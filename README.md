@@ -25,7 +25,7 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 <!-- toc -->
 * **2023**
-  - 2023/Week 8 [Bob Ross]()
+  - 2023/Week 8 [Bob Ross](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_08)
   - 2023/Week 18 [Portal Project]()
   
 <!-- tocstop -->

@@ -20,33 +20,6 @@ This repository contains my submissions for the weekly data visualization challe
 
 TidyTuesday is a weekly data analysis and visualization challenge that provides a structured format to practice data wrangling and visualization skills using R programming language. Each week, a new dataset is posted to the [TidyTuesday Github repository](https://github.com/rfordatascience/tidytuesday) and participants are encouraged to explore and visualize the data using the principles of tidy data.
 
-### About this Repository
-
-In this repository, you'll find my submissions for each week's challenge. Each submission is contained in its own folder named after the year, and then the week of the submission. Within each week folder, you'll find the following files:
-
-* `README.md`: A brief summary of the challenge and my approach to the visualization.
-* `index.R`: The script used to generate the visualization.
-* `YYYY_img_week_WW.png`: The resulting visualization.
-
-### Directory Structure
-
-├── YYYY/
-│   ├── week_XX
-│       ├── README.md
-│       ├── code.R
-│       └── output.png
-│   ├── week_XX
-│       ├── README.md
-│       ├── code.R
-│       └── output.png
-├── YYYY/
-│   ├── week_XX
-│       ├── README.md
-│       ├── code.R
-│       └── output.png
-│
-└── README.md
-
 <details>
 <summary>Submissions are in chronological order (click to expand)</summary>
 
@@ -54,14 +27,28 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 * **2023**
   - 2023/Week 8 [Bob Ross]()
   - 2023/Week 18 [Portal Project]()
-
+  
 <!-- tocstop -->
 
 </details>
 
-## 2023: Week 18 Portal Project
+<h1 align="center">
+## About this Repository
+</h1>
+
+In this repository, you'll find my submissions for each week's challenge. Each submission is organized into its own folder named after the week of the submission within each year folder. Within each week folder, you'll find the following files:
+
+* `README.md`: A brief summary of the challenge and my approach to the visualization.
+* `index.R`: The script used to generate the visualization.
+* `img.png`: The resulting visualization.
+
+<h1 align="center">
+## Submissions
+</h1>
+
+### 2023: Week 18 Portal Project
 
 
-## 2023: Week 8 - Bob Ross
+### 2023: Week 8 - Bob Ross
 
 ![](2023/week_08/plot.png)

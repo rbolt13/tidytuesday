@@ -1,5 +1,5 @@
 <h1 align="center">
-# TidyTuesday
+TidyTuesday
 </h1>
 
 <div align="center">
@@ -32,9 +32,9 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 </details>
 
-<h1 align="center">
-## About this Repository
-</h1>
+<h2 align="center">
+About this Repository
+</h2>
 
 In this repository, you'll find my submissions for each week's challenge. Each submission is organized into its own folder named after the week of the submission within each year folder. Within each week folder, you'll find the following files:
 
@@ -42,9 +42,9 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 * `index.R`: The script used to generate the visualization.
 * `img.png`: The resulting visualization.
 
-<h1 align="center">
-## Submissions
-</h1>
+<h2 align="center">
+Submissions
+</h2>
 
 ### 2023: Week 18 Portal Project
 

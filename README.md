@@ -43,7 +43,7 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 * `img.png`: The resulting visualization.
 
 <h2 align="center">
-Submissions - 2023
+2023 Submissions
 </h2>
 
 ### Week 18 - Portal Project

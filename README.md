@@ -48,6 +48,7 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 
 ### Week 18 - Portal Project
 
+![](2023/week_18/plot.png)
 
 ### Week 8 - Bob Ross
 

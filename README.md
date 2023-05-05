@@ -43,12 +43,12 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 * `img.png`: The resulting visualization.
 
 <h2 align="center">
-Submissions
+Submissions - 2023
 </h2>
 
-### 2023: Week 18 Portal Project
+### Week 18 - Portal Project
 
 
-### 2023: Week 8 - Bob Ross
+### Week 8 - Bob Ross
 
 ![](2023/week_08/plot.png)

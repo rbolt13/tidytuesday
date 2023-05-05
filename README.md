@@ -38,7 +38,7 @@ About this Repository
 
 In this repository, you'll find my submissions for each week's challenge. Each submission is organized into its own folder named after the week of the submission within each year folder. Within each week folder, you'll find the following files:
 
-* `README.md`: A brief summary of the challenge and my approach to the visualization.
+* `README.md`: A brief summary of the challenge.
 * `index.R`: The script used to generate the visualization.
 * `img.png`: The resulting visualization.
 

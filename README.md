@@ -21,7 +21,7 @@ This repository contains my submissions for the weekly data visualization challe
 TidyTuesday is a weekly data analysis and visualization challenge that provides a structured format to practice data wrangling and visualization skills using R programming language. Each week, a new dataset is posted to the [TidyTuesday Github repository](https://github.com/rfordatascience/tidytuesday) and participants are encouraged to explore and visualize the data using the principles of tidy data.
 
 <details>
-<summary>Submissions are in chronological order (click to expand)</summary>
+<summary>Submissions (click to expand)</summary>
 
 <!-- toc -->
 * **2023**

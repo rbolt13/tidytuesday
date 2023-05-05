@@ -2,7 +2,7 @@
 #' 
 #' 
 
-here::i_am("tidytuesday/2023/week_08/index.R")
+here::i_am("2023/week_08/index.R")
 
 library(tidyverse)
 
@@ -26,6 +26,6 @@ plot <- ggplot(
     axis.title.y = element_text(family = "Times")
   )
 
-png("plot.png")
+png("2023/week_08/plot.png")
 print(plot)
 dev.off()

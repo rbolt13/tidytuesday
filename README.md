@@ -25,8 +25,9 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 <!-- toc -->
 * **2023**
+  - 2023/Week 18 [Portal Project](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_18)
+  - 2023/Week 17 [London Marathon](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_17)
   - 2023/Week 8 [Bob Ross](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_08)
-  - 2023/Week 18 [Portal Project]()
   
 <!-- tocstop -->
 
@@ -49,6 +50,10 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 ### Week 18 - Portal Project
 
 ![](2023/week_18/plot.png)
+
+### Week 17 - London Marathon
+
+![](2023/week_17/plot.png)
 
 ### Week 8 - Bob Ross
 

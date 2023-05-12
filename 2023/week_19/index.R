@@ -125,7 +125,7 @@ sty_vis <- sty(sty_vis_text_size)
 
 #### Save Plot ####
 ggsave(
-  "week_19/plot.png", 
+  "2023/week_19/plot.png", 
   width = 30, 
   height = 20, 
   units = "cm")

@@ -4,4 +4,4 @@
 
 ![](plot.png)
 
-Week 20 Visual Goal: Modify style elements of the legend. 
+**Week 20 Visual Goal**: Modify style elements of the legend. 

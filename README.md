@@ -41,10 +41,10 @@ About this Repository
 
 In this repository, you'll find my submissions for each week's challenge. Each submission is organized into its own folder named after the week of the submission within each year folder. Within each week folder, you'll find the following files:
 
-* `functions`: A folder of all cleaning, styling, and visualizing functions for that weeks data visual. 
 * `README.md`: A brief summary of the challenge.
-* `index.R`: The script used to generate the visualization.
-* `img.png`: The resulting visualization.
+* `index.R`: The script used to generate the visual.
+* `functions`: The functions used to clean, visualize, and style the visual. 
+* `img.png`: The resulting visual.
 
 <h2 align="center">
 2023 Submissions

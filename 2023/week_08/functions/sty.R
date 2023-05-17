@@ -16,7 +16,7 @@ sty <- function(vis){
     ggplot2::labs(
       title = "Colors Used Each Season",
       subtitle = "The dashed red line shows the average number of colors used each season, 137.871.",
-      caption = "Graph by Randi Bolt | Data from #TidyTuesday",
+      caption = "Graph by Randi Bolt \n Data from #TidyTuesday",
       x = "Season",
       y = "Colors Used"
     )

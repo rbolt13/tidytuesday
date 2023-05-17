@@ -1,31 +1,40 @@
-#' Create a graph
-#' 
-#' 
-
+#### Week 8 - Bob Ross ####
+# Title: Index 
+# Date: May 16, 2023
+# Description: This file loads int the
+# necessary packages, functions, and data.
+# Then it cleans the data, creates a data 
+# visual, stylizes the visual, and saves the 
+# visual as a png file. 
 here::i_am("2023/week_08/index.R")
 
+#### Load Packages ####
+# tidyverse: A collection of data-related packages.
 library(tidyverse)
 
+#### Load Functions ####
+# clean(): cleans the data. 
+# vis(): creates a data visual.
+base::source("2023/week_08/functions/clean.R")
+base::source("2023/week_08/functions/vis.R")
+base::source("2023/week_08/functions/sty.R")
+
+#### Load Data ####
+# bob_ross: data about and from "The Joy of Painting".
 bob_ross <- read_csv("https://raw.githubusercontent.com/jwilber/Bob_Ross_Paintings/master/data/bob_ross_paintings.csv")
 
-br_colors <- bob_ross %>%
-  group_by(season) %>%
-  summarise(total_num_colors = sum(num_colors))
+#### Clean Data ####
+clean_data <- clean(bob_ross)
 
-plot <- ggplot(
-  br_colors, 
-  aes(x = season, 
-      y = total_num_colors)) +
-  geom_col(fill = "#6c464e") +
-  ggtitle("Colors Used Each Season") +
-  xlab("Season") +
-  ylab("Colors Used") +
-  theme(
-    plot.title = element_text(family = "Times"),
-    axis.title.x = element_text(family = "Times"),
-    axis.title.y = element_text(family = "Times")
-  )
+#### Create Data Visual ####
+vis_data <- vis(clean_data)
 
-png("2023/week_08/plot.png")
-print(plot)
-dev.off()
+#### Style Data Visual ####
+sty_vis <- sty(vis_data)
+
+#### Save Plot ####
+ggsave(
+  "2023/week_08/plot.png", 
+  width = 30, 
+  height = 20, 
+  units = "cm")

@@ -10,11 +10,13 @@ here::i_am("2023/week_08/functions/clean.R")
 base::library(dplyr)
 
 #### Cleaning Function ####
-# 1. Group by season.
-# 2. Summarise number of colors by season.
+# group_by(): groups data by season.
+# summarise(): summarise data.
+# sum(): sums the num of colors.
 clean <- function(df){
   clean_df <- df %>%
     dplyr::group_by(season) %>%
-    dplyr::summarise(total_num_colors = sum(num_colors))
+    dplyr::summarise(
+      total_num_colors = base::sum(num_colors))
   return(clean_df)
 }

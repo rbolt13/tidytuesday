@@ -1,6 +1,6 @@
 #### Week 8 - Bob Ross ####
 # Title: Index 
-# Date: May 16, 2023
+# Date: May 17, 2023
 # Description: This file loads int the
 # necessary packages, functions, and data.
 # Then it cleans the data, creates a data 
@@ -10,11 +10,12 @@ here::i_am("2023/week_08/index.R")
 
 #### Load Packages ####
 # tidyverse: A collection of data-related packages.
-library(tidyverse)
+base::library(tidyverse)
 
 #### Load Functions ####
 # clean(): cleans the data. 
 # vis(): creates a data visual.
+# sty(): stylizes a data visual.
 base::source("2023/week_08/functions/clean.R")
 base::source("2023/week_08/functions/vis.R")
 base::source("2023/week_08/functions/sty.R")

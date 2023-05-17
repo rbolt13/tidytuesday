@@ -25,6 +25,7 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 <!-- toc -->
 * **2023**
+  - 2023/Week 20 [Tornado Data](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_20)
   - 2023/Week 19 [Childcare Costs](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_19)
   - 2023/Week 18 [Portal Project](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_18)
   - 2023/Week 17 [London Marathon](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_17)
@@ -47,6 +48,10 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 <h2 align="center">
 2023 Submissions
 </h2>
+
+### Week 20 - Tornado Data
+
+![](2023/week_20/plot.png)
 
 ### Week 19 - Childcare Costs
 

@@ -69,3 +69,5 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 ### Week 8 - Bob Ross
 
 ![](2023/week_08/plot.png)
+
+![](2023/week_08/plot.png)

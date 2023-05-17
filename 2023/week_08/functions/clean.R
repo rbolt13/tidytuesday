@@ -6,7 +6,7 @@
 here::i_am("2023/week_08/functions/clean.R")
 
 #### Load Packages ####
-# dplyr: data cleaning functions
+# dplyr: data cleaning functions.
 base::library(dplyr)
 
 #### Cleaning Function ####

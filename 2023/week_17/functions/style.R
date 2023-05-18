@@ -1,39 +1,36 @@
-#### Workspace setup ####
+#### Week 17 - London Marathon ####
+# Title: Style Function
+# Date: May 18, 2023
+# Description: A function that takes
+# in a data visual and styles it. 
+here::i_am("2023/week_17/functions/style.R")
+
+#### Load Packages ####
+# ggplot2: graphing functions.
 library(ggplot2)
+
+#### Load Colors ####
+background_color <- "#596D78"
+title_color <- "#ABB3B8"
+graph_color <- "#ABB3B8"
+bonus_1 <- "#4F555B"
+bonus_2 <- "#B4AE59"
+
 #### Style Function ####
-# A function that takes in
-# a data visual and adds 
-# style elements. 
-#
-# @param vis is a data visual.
-# @return sty is a data visual with style. 
-style <- function(
-    vis,
-    # text 
-    title,
-    subtitle,
-    caption, 
-    xlab,
-    ylab,
-    # colors
-    background_color,
-    title_color,
-    graph_color){
+# labs(): add label text.
+# geom_text(): add text.
+# theme(): define theme.
+style <- function(vis){
   sty <- vis +
-    # text 
-    ggplot2::ggtitle(title) +
     ggplot2::labs(
-      subtitle = subtitle,
-      caption = caption
-    ) +
-    ggplot2::xlab(xlab) +
-    ggplot2::ylab(ylab) +
-    # add value next to bar
+      title = "Nationality of London Marathon Winners",
+      subtitle = "",
+      caption = "Graph by Randi Bolt | Data from #TidyTuesday",
+      x = "Number of Winners",
+      y = "") +
     ggplot2::geom_text(
       ggplot2::aes(label = nat_winners,
-                   hjust = 1.2)
-    ) +
-    # themes
+                   hjust = 1.2)) +
     ggplot2::theme(
       # title
       plot.title = element_text(

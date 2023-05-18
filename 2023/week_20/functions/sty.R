@@ -3,7 +3,7 @@
 # Date: May 17, 2023
 # Description: A function that takes
 # in a data visual and styles it. 
-here::i_am("2023/week_20/function/sty.R")
+here::i_am("2023/week_20/functions/sty.R")
 
 #### Load Packages ####
 # ggplot2: graphing functions. 

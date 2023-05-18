@@ -9,19 +9,19 @@
 here::i_am("2023/week_20/index.R")
 
 #### Load Packages ####
-# 1. tidyverse: A collection of data-related packages.
+# tidyverse: A collection of data-related packages.
 base::library(tidyverse)
 
 #### Load Functions ####
-# 1. clean(): cleans the data.
-# 2. vis(): creates a data visual.
-# 3. sty(): stylizes the visual. 
+# clean(): cleans the data.
+# vis(): creates a data visual.
+# sty(): stylizes the visual. 
 base::source("2023/week_20/functions/clean.R")
 base::source("2023/week_20/functions/vis.R")
 base::source("2023/week_20/functions/sty.R")
 
 #### Load Data ####
-# 1. tornadoes: tornado data.
+# tornadoes: tornado data.
 tornadoes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-16/tornados.csv')
 
 #### Clean Data ####

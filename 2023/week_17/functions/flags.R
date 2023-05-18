@@ -1,10 +1,16 @@
-here::i_am("week_17/functions/flags.R")
-#### Workspace setup ####
+#### Week 17 - London Marathon ####
+# Title: Flags
+# Date: May 18, 2023
+# Description: This file loads in 23
+# flags and then saves them as an 
+# RDS list. 
+here::i_am("2023/week_17/functions/flags.R")
+
+#### Load Packages ####
+# png: format png. 
 base::library(png)
-#### Flag List ####
-# This saves flag png's 
-# into a list. 
-# flags
+
+#### Load Flags ####
 uk <-  readPNG("flags/uk.png")   
 kenya <-  readPNG("flags/kenya.png") 
 usa <-  readPNG("flags/usa.png")
@@ -29,7 +35,8 @@ spain <- readPNG("flags/spain.png")
 su <- readPNG("flags/soviet_union.png")
 china <- readPNG("flags/china.png")
 bel <- readPNG("flags/belgium.png")
-# flags list
+
+#### Flag List ####
 flag_list <- list(
   uk, kenya, usa,
   swi, ethi, nor,
@@ -39,5 +46,6 @@ flag_list <- list(
   denmark, aus, pol,
   neth, mor, spain,
   su, china, bel)
-# save
+
+#### Save Flags ####
 saveRDS(flag_list, file="week_17/data/flag_list.RData")

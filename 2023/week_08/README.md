@@ -4,6 +4,4 @@ The data this week comes from Jared Wilber's data on [Bob Ross Paintings](https:
 
 ![](plot.png)
 
-![](plot.png)
-
 Week 8 Visual Goal: Create a #TidyTuesday submission with a line that shows an average. 

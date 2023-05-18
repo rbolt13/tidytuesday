@@ -3,10 +3,11 @@
 # Date: May 17, 2023
 # Description: A function that takes
 # in a data visual and styles it. 
+here::i_am("2023/week_20/function/sty.R")
 
 #### Load Packages ####
-# 1. ggplot2: graphing functions. 
-# 2. showtext: define font. 
+# ggplot2: graphing functions. 
+# showtext: define font. 
 base::library(ggplot2)
 base::library(showtext)
 
@@ -28,27 +29,28 @@ risk_cols <- c(
   "#f2a32a", "#ed0204", "#f200ff")
 
 #### Style Function ####
-# 1. Add text. 
-# 2. Add value above bars. 
-# 3. Add theme elements. 
-# 4. Add axis breaks. 
+# labs(): add text labels. 
+# scale_continuous(): set scales. 
+# scale_fill_manual(): set col colors.
+# geom_text(): add text. 
+# theme(): define theme. 
 sty <- function(vis){
   sty <- vis +
-    # 1. Text 
-    ggplot2::ggtitle("Tornado Severity by Month") +
     ggplot2::labs(
+      title = "Tornado Severity by Month",
       subtitle = "The months that saw the most tornadoes were April - June, and the majority of tornadoes were below magnitude 2",
-      caption = "Period 1950 - 2021 | Graph by Randi Bolt | Data from #TidyTuesday: NOAA") +
-    ggplot2::xlab("Month") +
-    ggplot2::ylab("Number of Tornadoes") +
-  # 2. Add Value Above Bar
+      caption = "Period 1950 - 2021 | Graph by Randi Bolt | Data from #TidyTuesday: NOAA",
+      x = "Month",
+      y = "Number of Tornadoes")  +
+    ggplot2::scale_x_continuous(breaks = seq(1,12,1)) + 
+    ggplot2::scale_y_continuous(breaks = seq(0,8000,1000)) +
+    ggplot2::scale_fill_manual(values = risk_cols) +
   ggplot2::geom_text(
     ggplot2::aes(
       label = value,
       vjust = -.2,
       family = "font"),
     size = 10) +
-    # 3. Theme 
     ggplot2::theme(
       # title
       plot.title = element_text(
@@ -93,15 +95,6 @@ sty <- function(vis){
         linetype = "solid",
         color = col4),
       panel.background = element_rect(fill = col3),
-      strip.background = element_rect(fill = col4)
-    ) +
-    # 4. Axis Breaks 
-    ggplot2::scale_x_continuous(
-      breaks = seq(1,12,1)) + 
-    ggplot2::scale_y_continuous(
-      breaks = seq(0,8000,1000)) +
-  # 5. Value Colors
-  ggplot2::scale_fill_manual(values = risk_cols) 
-  
+      strip.background = element_rect(fill = col4))
   return(sty)
 }

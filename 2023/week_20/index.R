@@ -1,11 +1,12 @@
 #### Week 20 - Tornadoes data ####
 # Title: Index
-# Date: May 16, 2023
+# Date: May 18, 2023
 # Description: This file loads in the 
 # necessary packages, functions, and data. 
 # Then it cleans the data, creates a data 
 # visual out the data, stylizes the visual,
 # and saves the stylized visual as a png. 
+here::i_am("2023/week_20/index.R")
 
 #### Load Packages ####
 # 1. tidyverse: A collection of data-related packages.
@@ -13,7 +14,7 @@ base::library(tidyverse)
 
 #### Load Functions ####
 # 1. clean(): cleans the data.
-# 2. vis(): creats a data visual.
+# 2. vis(): creates a data visual.
 # 3. sty(): stylizes the visual. 
 base::source("2023/week_20/functions/clean.R")
 base::source("2023/week_20/functions/vis.R")

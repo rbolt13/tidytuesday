@@ -1,7 +1,7 @@
 #### Week 8 - Bob Ross ####
 # Title: Index 
 # Date: May 17, 2023
-# Description: This file loads int the
+# Description: This file loads in the
 # necessary packages, functions, and data.
 # Then it cleans the data, creates a data 
 # visual, stylizes the visual, and saves the 

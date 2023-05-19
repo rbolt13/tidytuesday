@@ -4,4 +4,4 @@
 
 ![](plot.png)
 
-Week 18 Visual Goal: Add color and values above points. 
+Week 18 Goal: Add color and values above points. 

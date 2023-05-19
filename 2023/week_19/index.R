@@ -3,7 +3,7 @@
 # Date: May 18, 2023
 # Description: This file loads in the 
 # necessary packages, functions, and data.
-# Then it cleans the data, creats a data 
+# Then it cleans the data, creates a data 
 # visual, stylizes the visual, and saves
 # the visual as a png file. 
 here::i_am("2023/week_19/index.R")

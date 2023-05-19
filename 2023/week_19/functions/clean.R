@@ -1,70 +1,69 @@
 #### Week 19 - Childcare Costs ####
+# Title: Cleaning Function
+# Date: May 18, 2023
+# Description: A function that takes 
+# in a data set and cleans it. 
+here::i_am("2023/week_19/functions/clean.R")
 
-#### Workspace setup ####
-# dplyr: to clean the data
-# magrittr: to pipe the data 
-# through cleaning functions.
-library(dplyr)
-library(magrittr)
+#### Load Packages ####
+# dplyr: data cleaning functions.
+# magrittr: %>% pipe function. 
+# tidyr: data tidying functions. 
+base::library(dplyr)
+base::library(magrittr)
+base::library(tidyr)
+
+#### Load State Abbreviation #### 
+state_abb <- "OR"
 
 #### Cleaning Function ####
-# A function that takes in a df
-# and then: 
-# 1. Selects relevant industry rows.
-# 2. Make data long. 
-# 3. Change industry col to char type. 
-# 4. Add gender col.
-# 5. Change industry col values. 
-# 6. Reorder industry levels. 
-# 
-# @dependencies dplyr, magrittr
-#
-# @param filter_df is a df filtered 
-# by state.
-# 
-# @return clean_df is a clean df.
-clean <- function(
-    filter_df){
-  clean_df <- filter_df %>%
-    # 1. Select Industry Rows 
+# left_join(): joins columns. 
+# filter(): filter by state. 
+# select(): select specific columns. 
+# gather(): pivot longer. 
+# as.character(): change to char value. 
+# mutate(): add gender column and adjust 
+# industry column. 
+# case.when(): if_else statements. 
+# startsWith(): if entry starts with given string.
+# endsWith(): if entry ends with given string. 
+# factor(): reorder industry levels. 
+clean <- function(df1, df2){
+  clean_df <- df1 %>%
+    dplyr::left_join(df2,
+      by = c("county_fips_code" = "county_fips_code")
+      ) %>%
+    dplyr::filter(state_abbreviation == state_abb) %>%
     dplyr::select(
       study_year,
       # management, business, science, arts
-      memp_m,
-      femp_m, 
+      memp_m, femp_m, 
       # service
-      memp_service, 
-      femp_service,
+      memp_service, femp_service,
       # sales, office
-      memp_sales,
-      femp_sales,
-      # naturla resources, construction, maintenance
-      memp_n,
-      femp_n,
+      memp_sales, femp_sales,
+      # natural resources, construction, maintenance
+      memp_n, femp_n,
       # production, transportation, and material
-      memp_p,
-      femp_p,
+      memp_p, femp_p,
       # unemployed
-      munr_16,
-      funr_16
+      munr_16, funr_16
     ) %>%
-    # 2. Make Long Data
-    gather(
+    tidyr::gather(
       industry,
       per_emply,
       memp_m:funr_16,
       factor_key = TRUE
     ) 
-  # 3. Make Industry Column a Char Value
+
   clean_df$industry <- as.character(clean_df$industry)
-  # 4. Add Gender Col
+  
   clean_df <- clean_df %>%
     dplyr::mutate(
       Gender = dplyr::case_when(
         base::startsWith(industry, "m") ~ "Male",
         base::startsWith(industry, "f") ~ "Female"
       )) %>%
-    # 5. Change industry column values
     dplyr::mutate(
       industry = dplyr::case_when(
         base::endsWith(industry, "emp_m") ~ "Management",
@@ -74,7 +73,7 @@ clean <- function(
         base::endsWith(industry, "emp_p") ~ "Production",
         base::endsWith(industry, "unr_16") ~ "Unemployed"
         ))
-  # 6. Reorganize industry levels
+
   clean_df$industry <- base::factor(
     clean_df$industry,
     levels = c(

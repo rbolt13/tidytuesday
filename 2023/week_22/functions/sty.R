@@ -49,29 +49,29 @@ sty <- function(vis){
     # theme
     ggplot2::theme(
       plot.title = element_text(
-        size = 80,
+        size = 90,
         family = "font",
         face = "bold",
         hjust = .5,
         vjust = -5,
         color = col1),
       plot.subtitle = element_text(
-        size = 50,
+        size = 55,
         family = "font",
         hjust = .5,
         vjust = -20,
         color = col1),
       plot.caption = element_text(
-        size = 20,
+        size = 30,
         family = "font",
         hjust = .5,
         color = col1),
       axis.title = element_text(
-        size = 40, 
+        size = 50, 
         family = "font",
         color = col1),
       axis.text = element_text(
-        size = 35, 
+        size = 45, 
         family = "font",
         color = col1),
       axis.text.x = element_text(angle = 25), 

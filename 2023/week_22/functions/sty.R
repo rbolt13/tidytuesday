@@ -12,7 +12,7 @@ base::library(ggplot2)
 base::library(ggchicklet)
 
 #### Load Fonts ####
-sysfonts::font_add_google("Playfair Display", "font")
+sysfonts::font_add_google("EB Garamond", "font")
 showtext::showtext_auto()
 
 #### Load Colors ####
@@ -49,7 +49,7 @@ sty <- function(vis){
     # theme
     ggplot2::theme(
       plot.title = element_text(
-        size = 90,
+        size = 100,
         family = "font",
         face = "bold",
         hjust = .5,
@@ -69,6 +69,7 @@ sty <- function(vis){
       axis.title = element_text(
         size = 50, 
         family = "font",
+        face = "bold",
         color = col1),
       axis.text = element_text(
         size = 45, 

@@ -25,6 +25,7 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 <!-- toc -->
 * **2023**
+  - 2023/Week 24 [SAFI Data](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_24)
   - 2023/Week 22 [Verified Oldest People](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_22)
   - 2023/Week 21 [Squirrel Census](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_21)
   - 2023/Week 20 [Tornado Data](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_20)
@@ -52,9 +53,13 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 2023 Submissions
 </h2>
 
-### Week 21 - Squirrel Census
+### Week 24 - SAFI Data
 
-[![](2023/week_22/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_22)
+[![](2023/week_24/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_24)
+
+### Week 22 - Verified Oldest People
+
+[![](2023/week_22/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_23)
 
 ### Week 21 - Squirrel Census
 

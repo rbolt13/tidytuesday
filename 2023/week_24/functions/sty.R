@@ -27,7 +27,7 @@ sty <- function(vis){
     # labs
     ggplot2::labs(
       title = "Relationship Between Live Stock Ownership and Number of Rooms in Household",
-      subtitle = "This subset of the SAFI (Studying African Farmer-Led Irrigation) data shows that of the 131 people surveyed most lived in a house with 1 room,\n and had between 1 cattle. There is no obvious evidence to indicate that the number of rooms in a home is related to the number of live stock owned.",
+      subtitle = "This subset of the SAFI (Studying African Farmer-Led Irrigation) data shows that of the 131 people surveyed most lived in a house with 1 room,\n and had 1 cattle. There is no obvious evidence to indicate that the number of rooms in a home is related to the number of live stock owned.",
       caption = "Randi Bolt - June 2023 \n#TidyTuesday: SAFI Data - June 2017",
       x = "Rooms",
       y = "Live Stock",

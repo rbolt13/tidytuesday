@@ -1,6 +1,6 @@
 #### Week 17 - London Marathon ####
 # Title: Style Function
-# Date: May 18, 2023
+# Date: June 18, 2023
 # Description: A function that takes
 # in a data visual and styles it. 
 here::i_am("2023/week_17/functions/style.R")
@@ -17,17 +17,16 @@ bonus_1 <- "#4F555B"
 bonus_2 <- "#B4AE59"
 
 #### Style Function ####
-# labs(): add label text.
-# geom_text(): add text.
-# theme(): define theme.
 style <- function(vis){
   sty <- vis +
+    # labels 
     ggplot2::labs(
       title = "Nationality of London Marathon Winners",
       subtitle = "",
       caption = "Graph by Randi Bolt | Data from #TidyTuesday",
       x = "Number of Winners",
       y = "") +
+    # values next to bars
     ggplot2::geom_text(
       ggplot2::aes(label = nat_winners,
                    hjust = 1.2)) +

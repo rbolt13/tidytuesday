@@ -59,11 +59,11 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 
 ### Week 22 - Verified Oldest People
 
-[![](2023/week_22/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_23)
+[![](2023/week_22/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_22)
 
 ### Week 21 - Squirrel Census
 
-![](2023/week_21/plot.png)
+[![](2023/week_21/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_21)
 
 ### Week 20 - Tornado Data
 

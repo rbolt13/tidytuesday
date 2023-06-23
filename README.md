@@ -25,6 +25,7 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 <!-- toc -->
 * **2023**
+  - 2023/Week 25 [UFO Sightings Redux](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_25)
   - 2023/Week 24 [SAFI Data](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_24)
   - 2023/Week 22 [Verified Oldest People](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_22)
   - 2023/Week 21 [Squirrel Census](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_21)

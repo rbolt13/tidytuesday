@@ -53,6 +53,10 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 2023 Submissions
 </h2>
 
+### Week 25 - UFO Sightings Redux
+
+[![](2023/week_25/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_25)
+
 ### Week 24 - SAFI Data
 
 [![](2023/week_24/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_24)

@@ -4,7 +4,7 @@ TidyTuesday
 
 <div align="center">
 
-&nbsp;&nbsp;&nbsp; [Website][Website]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Mastodon][Mastodon]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [LinkedIn][LinkedIn]
+&nbsp;&nbsp;&nbsp; [Website][Website]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Email][Email]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [LinkedIn][LinkedIn]
 
 </div>
 
@@ -13,7 +13,7 @@ Quick Link
 -->
 
 [Website]:https://www.rbolt.me/
-[Mastodon]:https://mastodon.social/@rbolt@pnw.zone
+[Email]:randibolt93@gmail.com 
 [LinkedIn]:https://www.linkedin.com/in/randi-bolt/
 
 This repository contains my submissions for the weekly data visualization challenge [TidyTuesday](https://github.com/rfordatascience/tidytuesday).
@@ -24,6 +24,8 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 <summary>Submissions (click to expand)</summary> 
 
 <!-- toc -->
+* **2024**
+  - 2024/Week 13 [NCAA Men's March Madness](https://github.com/rbolt13/tidytuesday/tree/main/2024/week_13)
 * **2023**
   - 2023/Week 25 [UFO Sightings Redux](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_25)
   - 2023/Week 24 [SAFI Data](https://github.com/rbolt13/tidytuesday/tree/main/2023/week_24)
@@ -49,6 +51,14 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 * `index.R`: The script used to generate the visual.
 * `functions`: The functions used to clean, visualize, and style the visual. 
 * `img.png`: The resulting visual.
+
+<h2 align="center">
+2024 Submissions
+</h2>
+
+### Week 13 - NCAA Men's March Madness
+
+[![](2024/week_13/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2024/week_13)
 
 <h2 align="center">
 2023 Submissions

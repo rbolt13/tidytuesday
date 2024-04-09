@@ -47,7 +47,7 @@ col2 <- "#e0a761"
 # fill_text
 title_text <- "Team Performance vs. Public Expectation"
 subtitle_text <- "March Madness is a knockout college basketball tournament with 68 teams <br>battling in six rounds for the title. This chart, covering men's teams for <br> 2024, shows when teams didn't meet or beat fan expectations. <span style='color:red;'>Red </span> means <br>a team did <span style='color:red;'>better than expected</span>, <span style='color:blue;'>blue means worse</span>, and gray indicates <br>that the data isn't currently available. The values represent the percentage <br>point difference between actual wins and public forecasts."
-caption_text <- "Randi Bolt \nMarch 2024 \n#TidyTuesday \nNCAA March Madness"
+caption_text <- "Randi Bolt \nApril 2024 \n#TidyTuesday \nNCAA March Madness"
 xlab_text <- "NCAA Tournament Rounds"
 ylab_text <- "Team (Seed)"
 fill_text <- "Difference"

@@ -25,6 +25,7 @@ TidyTuesday is a weekly data analysis and visualization challenge that provides 
 
 <!-- toc -->
 * **2024**
+  - 2024/Week 27 [TidyTuesday Datasets](https://github.com/rbolt13/tidytuesday/tree/main/2024/week_27)
   - 2024/Week 14 [Du Bois Visualization Challenge](https://github.com/rbolt13/tidytuesday/tree/main/2024/week_14)
   - 2024/Week 13 [NCAA Men's March Madness](https://github.com/rbolt13/tidytuesday/tree/main/2024/week_13)
 * **2023**
@@ -56,6 +57,10 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 <h2 align="center">
 2024 Submissions
 </h2>
+
+### Week 27 - TidyTuesday Data
+
+[![](2024/week_27/plot.png)](https://github.com/rbolt13/tidytuesday/tree/main/2024/week_27)
 
 ### Week 14 - Du Bois Visualization Challenge 2024
 

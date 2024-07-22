@@ -21,7 +21,7 @@ text_col <- "#F0F0F0"
 
 #### Define Text ####
 title <- "Quarterly Data Volume for Tidy Tuesday Datasets (2018-2024)"
-st <- "This graph shows the total number of cells (rows × columns) for each quarter across different years. 2019 had the largest data sizes with <span style = 'color:yellow;'>**75,152,652**</span> a **6,801%** increase in size from the same quarter of the previous year"
+st <- "This graph shows the total number of cells (rows × columns) for each quarter across different years. 2019 had the largest data sizes with <span style = 'color:yellow;'>**75,152,652 cells**</span> a **6,801%** increase in size from the same quarter of the previous year"
 cap <- "**Data**: TidyTuesday <br> **Graphic**: R. Bolt"
 xlab <- "Quarter"
 ylab <- "Total Cells"
